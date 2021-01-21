@@ -21,7 +21,6 @@
         <spring-boot-version>2.2.5.RELEASE</spring-boot-version>
         <mysql-version>8.0.16</mysql-version>
         <mp-version>3.4.1</mp-version>
-        <fastjson-version>1.2.62</fastjson-version>
     </properties>
 
     <dependencies>
@@ -46,12 +45,6 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>${mp-version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>${fastjson-version}</version>
         </dependency>
 
     </dependencies>
